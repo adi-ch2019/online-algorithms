@@ -1,6 +1,9 @@
 ﻿string N1="1234";
 string N2="1237";
 
+// string N1="1234";
+// string N2="5678";
+
 char[] charN1=N1.ToArray();
 char[] charN2 = N2.ToArray();
 
@@ -15,18 +18,19 @@ if(N1.Length==N2.Length && N1!=N2 )
         int intN1 =int.TryParse(charN1, out int result)?result:-1;
        // Console.WriteLine(intN1);
         if(intN1==Convert.ToInt16( N2))
-        {
-           
+        {         
+            count++;   
+           break;
         }
         else
         {
-            Console.WriteLine(charN1);
-            count++;
+            Console.WriteLine(intN1);
+             count++;       
         }
     }
 }
 
-count++;
+
 
 Console.WriteLine("Count of numbers swapped of 1st string with the 2nd is :"+Convert.ToString(count) );
 
