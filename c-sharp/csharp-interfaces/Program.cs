@@ -3,6 +3,13 @@ using System.Collections.Generic;
 
 namespace CustomCollection.Tests
 {
+    public class Program
+    {
+    public static void Main(string[] args)
+    {
+        
+    }
+    }
     public class StringMap<TValue> : IStringMap<TValue>
         where TValue : class
     {
