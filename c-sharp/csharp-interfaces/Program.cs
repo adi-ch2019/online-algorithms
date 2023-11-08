@@ -10,7 +10,7 @@ namespace CustomCollection.Tests
 
         public int Count => map.Count;
 
-        public TValue DefaultValue { get; set; }
+        public TValue? DefaultValue { get; set; }
 
         public bool AddElement(string key, TValue value)
         {
@@ -55,5 +55,9 @@ namespace CustomCollection.Tests
 
             return DefaultValue;
         }
+    }
+
+    public interface IStringMap<TValue> where TValue : class
+    {
     }
 }

@@ -1,4 +1,4 @@
-# In this implementation:
+# In this implementation
 
 - The Count property returns the number of elements in the map.
 - The DefaultValue property gets or sets the default value to return if the key doesn't exist in   the map.
