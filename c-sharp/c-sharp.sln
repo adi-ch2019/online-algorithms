@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "abstractclasses-example", "abstractclasses-example\abstractclasses-example.csproj", "{E8F4DBFF-5047-4D23-8EC5-DFEF18F43233}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "csharp-interfaces", "csharp-interfaces\csharp-interfaces.csproj", "{7507E436-9C66-428C-9D3E-C3069D68E163}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "elections-voting-frequency", "elections-voting-frequency\elections-voting-frequency.csproj", "{00813C4A-7661-4557-995A-CF2FC36293CD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "find-no-of-routes-to-node-zero", "find-no-of-routes-to-node-zero\find-no-of-routes-to-node-zero.csproj", "{8D213780-B402-4AF2-8221-B3270A305F01}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "overtime-for-string-input", "overtime-for-string-input\overtime-for-string-input.csproj", "{1C77FE75-08D4-48F7-9FF5-73E116DE8E5C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "second-string-replace-digits-from-first", "second-string-replace-digits-from-first\second-string-replace-digits-from-first.csproj", "{E9F97E99-06BA-4784-BE07-ED15A5E9F326}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8F4DBFF-5047-4D23-8EC5-DFEF18F43233}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8F4DBFF-5047-4D23-8EC5-DFEF18F43233}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8F4DBFF-5047-4D23-8EC5-DFEF18F43233}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8F4DBFF-5047-4D23-8EC5-DFEF18F43233}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7507E436-9C66-428C-9D3E-C3069D68E163}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7507E436-9C66-428C-9D3E-C3069D68E163}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7507E436-9C66-428C-9D3E-C3069D68E163}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7507E436-9C66-428C-9D3E-C3069D68E163}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00813C4A-7661-4557-995A-CF2FC36293CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00813C4A-7661-4557-995A-CF2FC36293CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00813C4A-7661-4557-995A-CF2FC36293CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00813C4A-7661-4557-995A-CF2FC36293CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D213780-B402-4AF2-8221-B3270A305F01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D213780-B402-4AF2-8221-B3270A305F01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D213780-B402-4AF2-8221-B3270A305F01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D213780-B402-4AF2-8221-B3270A305F01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C77FE75-08D4-48F7-9FF5-73E116DE8E5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C77FE75-08D4-48F7-9FF5-73E116DE8E5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C77FE75-08D4-48F7-9FF5-73E116DE8E5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C77FE75-08D4-48F7-9FF5-73E116DE8E5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9F97E99-06BA-4784-BE07-ED15A5E9F326}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9F97E99-06BA-4784-BE07-ED15A5E9F326}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9F97E99-06BA-4784-BE07-ED15A5E9F326}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9F97E99-06BA-4784-BE07-ED15A5E9F326}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F15D1293-EA87-4DEB-85B2-1ACF23EF7759}
+	EndGlobalSection
+EndGlobal
