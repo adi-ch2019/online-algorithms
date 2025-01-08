@@ -14,7 +14,7 @@ if(N1.Length==N2.Length && N1!=N2 )
     for(int i=N1.Length-1;i>=0;i--)
     {
         charN1[i]=charN2[i];
-        string? str1 = charN1.ToArray().ToString();
+        //string? str1 = charN1.ToArray().ToString();
         int intN1 =int.TryParse(charN1, out int result)?result:-1;
         Console.WriteLine(intN1);
         if(intN1==Convert.ToInt16( N2))
