@@ -1,8 +1,8 @@
-﻿string N1="1234";
-string N2="1237";
+﻿// string N1="1234";
+// string N2="1237";
 
-// string N1="1234";
-// string N2="5678";
+string N1="1234";
+string N2="5678";
 
 char[] charN1=N1.ToArray();
 char[] charN2 = N2.ToArray();
@@ -16,7 +16,7 @@ if(N1.Length==N2.Length && N1!=N2 )
         charN1[i]=charN2[i];
         string? str1 = charN1.ToArray().ToString();
         int intN1 =int.TryParse(charN1, out int result)?result:-1;
-       // Console.WriteLine(intN1);
+        Console.WriteLine(intN1);
         if(intN1==Convert.ToInt16( N2))
         {         
             count++;   
