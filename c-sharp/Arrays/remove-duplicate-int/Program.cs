@@ -1,6 +1,6 @@
 ﻿// Example usage
-class Program {
-    static void Main() {
+class Program1 {
+    static void Main1() {
         Solution sol = new Solution();
         
         // Example 1
