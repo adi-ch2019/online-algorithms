@@ -2,7 +2,7 @@
 
     public static void Main(string[] args) {
         string s = "anagram";
-        string t = "nagaramrrr";
+        string t = "nagaram";
         Console.WriteLine(IsAnagram(s,t));
     }       
     public static bool IsAnagram(string s, string t) {
