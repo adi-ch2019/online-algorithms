@@ -1,0 +1,15 @@
+C:\ThisPC\github\online-algorithms\c-sharp\math\count-primes\bin\Debug\net10.0\count-primes.exe
+C:\ThisPC\github\online-algorithms\c-sharp\math\count-primes\bin\Debug\net10.0\count-primes.deps.json
+C:\ThisPC\github\online-algorithms\c-sharp\math\count-primes\bin\Debug\net10.0\count-primes.runtimeconfig.json
+C:\ThisPC\github\online-algorithms\c-sharp\math\count-primes\bin\Debug\net10.0\count-primes.dll
+C:\ThisPC\github\online-algorithms\c-sharp\math\count-primes\bin\Debug\net10.0\count-primes.pdb
+C:\ThisPC\github\online-algorithms\c-sharp\math\count-primes\obj\Debug\net10.0\count-primes.GeneratedMSBuildEditorConfig.editorconfig
+C:\ThisPC\github\online-algorithms\c-sharp\math\count-primes\obj\Debug\net10.0\count-primes.AssemblyInfoInputs.cache
+C:\ThisPC\github\online-algorithms\c-sharp\math\count-primes\obj\Debug\net10.0\count-primes.AssemblyInfo.cs
+C:\ThisPC\github\online-algorithms\c-sharp\math\count-primes\obj\Debug\net10.0\count-primes.csproj.CoreCompileInputs.cache
+C:\ThisPC\github\online-algorithms\c-sharp\math\count-primes\obj\Debug\net10.0\count-primes.sourcelink.json
+C:\ThisPC\github\online-algorithms\c-sharp\math\count-primes\obj\Debug\net10.0\count-primes.dll
+C:\ThisPC\github\online-algorithms\c-sharp\math\count-primes\obj\Debug\net10.0\refint\count-primes.dll
+C:\ThisPC\github\online-algorithms\c-sharp\math\count-primes\obj\Debug\net10.0\count-primes.pdb
+C:\ThisPC\github\online-algorithms\c-sharp\math\count-primes\obj\Debug\net10.0\count-primes.genruntimeconfig.cache
+C:\ThisPC\github\online-algorithms\c-sharp\math\count-primes\obj\Debug\net10.0\ref\count-primes.dll
