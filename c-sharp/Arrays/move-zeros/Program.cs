@@ -1,7 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-using System.Diagnostics.Contracts;
-using System.Security.Cryptography.X509Certificates;
-
+﻿
 Console.WriteLine("Move Zeroes! to the end of the array while maintaining the relative order of the non-zero elements.");
 
 void MoveZeroes(int[] nums) {
