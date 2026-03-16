@@ -6,7 +6,11 @@ Simple SQL practice environment for GitHub Codespaces.
 
 1. Click "Code" → "Codespaces" → "Create codespace on main"
 2. Wait for setup to complete (10 seconds)
-3. Run queries:
+3. Add Permissions to run BASH Scripts
+```bash
+chmod +x run
+```
+4. Run queries:
 
 ```bash
 # Run all queries
