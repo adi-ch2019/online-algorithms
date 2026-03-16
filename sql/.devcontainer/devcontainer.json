@@ -1,0 +1,18 @@
+{
+    "name": "SQL Practice",
+    "image": "mcr.microsoft.com/devcontainers/universal:2-linux",
+    "features": {
+        "ghcr.io/devcontainers/features/sqlite:1": {}
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "alexcvzz.vscode-sqlite",
+                "mtxr.sqltools",
+                "mtxr.sqltools-driver-sqlite"
+            ]
+        }
+    },
+    "postCreateCommand": "sqlite3 practice.db < setup.sql",
+    "postAttachCommand": "echo '✅ Ready! Run ./run to execute queries'"
+}

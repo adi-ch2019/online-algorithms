@@ -1,0 +1,91 @@
+#!/bin/bash
+
+DB="practice.db"
+
+# Colors for output
+GREEN='\033[0;32m'
+BLUE='\033[0;34m'
+NC='\033[0m' # No Color
+
+show_help() {
+    echo "SQL Practice Runner"
+    echo ""
+    echo "Usage: ./run [query_number]"
+    echo ""
+    echo "Examples:"
+    echo "  ./run      - Run all queries"
+    echo "  ./run 5    - Run query #5"
+    echo "  ./run list - List all queries"
+    echo "  ./run shell - Open SQLite shell"
+}
+
+if [ "$1" == "help" ] || [ "$1" == "-h" ]; then
+    show_help
+    exit 0
+fi
+
+if [ "$1" == "list" ]; then
+    echo "Available queries:"
+    ls -1 queries/*.sql | sed 's/queries\///' | sed 's/.sql//' | sort -n
+    exit 0
+fi
+
+if [ "$1" == "shell" ]; then
+    sqlite3 "$DB"
+    exit 0
+fi
+
+run_query() {
+    local file=$1
+    echo -e "${BLUE}========================================${NC}"
+    echo -e "${GREEN}Running: $(basename "$file")${NC}"
+    echo -e "${BLUE}========================================${NC}"
+    
+    # Show the query first
+    echo "SQL:"
+    cat "$file"
+    echo ""
+    echo "Results:"
+    echo "----------------------------------------"
+    
+    # Run the query
+    sqlite3 -header -column "$DB" < "$file"
+    
+    echo -e "\n"
+}
+
+# Check if database exists
+if [ ! -f "$DB" ]; then
+    echo "Creating database..."
+    sqlite3 "$DB" < setup.sql
+    echo "Database created!"
+    echo ""
+fi
+
+# Run specific query or all
+if [ ! -z "$1" ]; then
+    # Find query with zero-padded number
+    query_num=$(printf "%02d" $1)
+    found=0
+    for file in queries/${query_num}_*.sql; do
+        if [ -f "$file" ]; then
+            run_query "$file"
+            found=1
+            break
+        fi
+    done
+    
+    if [ $found -eq 0 ]; then
+        echo "Query $1 not found! Run './run list' to see available queries."
+    fi
+else
+    # Run all queries in order
+    for file in queries/[0-9][0-9]_*.sql; do
+        if [ -f "$file" ]; then
+            run_query "$file"
+            if [ "$file" != "${BASH_ARGV[${#BASH_ARGV[@]}-1]}" ]; then
+                read -p "Press Enter to continue..."
+            fi
+        fi
+    done
+fi
