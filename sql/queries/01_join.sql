@@ -1,3 +1,6 @@
+SELECT * FROM AUTHORS;
+SELECT * FROM BOOKS;
+
 -- Books of every Author
 -- Retrieve all authors and their books
 
