@@ -1,3 +1,5 @@
+-- Image 2: Book Count of each Author
+
 -- Query 5: With HAVING clause (authors with more than 1 book)
 SELECT a.author_name, COUNT(b.book_id) as book_count
 FROM authors a

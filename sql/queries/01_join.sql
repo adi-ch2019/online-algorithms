@@ -1,5 +1,7 @@
-SELECT * FROM AUTHORS;
-SELECT * FROM BOOKS;
+-- Image 1: Books of every Author
+
+-- SELECT * FROM AUTHORS;
+-- SELECT * FROM BOOKS;
 
 -- Query 1: Simple JOIN to get all books with author names
 SELECT a.author_name, b.book_name
