@@ -1,12 +1,8 @@
 SELECT * FROM AUTHORS;
 SELECT * FROM BOOKS;
 
--- Books of every Author
--- Retrieve all authors and their books
-
-SELECT 
-    a.author_name,
-    b.book_name
+-- Query 1: Simple JOIN to get all books with author names
+SELECT a.author_name, b.book_name
 FROM authors a
-LEFT JOIN books b ON a.author_id = b.author_id
+JOIN books b ON a.author_id = b.author_id
 ORDER BY a.author_name, b.book_name;
