@@ -1,12 +1,14 @@
 # Duplicate Detection with HashSet in .NET
 
 ## 📌 Overview
+
 This project demonstrates a simple yet efficient solution to detect duplicates in an integer array using **HashSet** in C#.  
 It’s part of my professional portfolio, showcasing clean, optimized, and production-ready coding practices developed over 14+ years of experience in **.NET development, troubleshooting, and optimization**.
 
 ---
 
 ## 🚀 Features
+
 - Implements a **HashSet-based algorithm** for O(n) average time complexity.
 - Demonstrates **best practices** in C# coding:
   - Clear method separation (`Main` vs `ContainsDuplicate`)
@@ -17,6 +19,7 @@ It’s part of my professional portfolio, showcasing clean, optimized, and produ
 ---
 
 ## 🧑‍💻 Code Example
+
 ```csharp
 public class Program {
     public static void Main(string[] args) {

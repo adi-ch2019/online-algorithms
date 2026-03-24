@@ -1,6 +1,7 @@
 # 👩‍💼 Employee Data Processing with LINQ in .NET
 
 ## 📌 Overview
+
 This project demonstrates how to use **LINQ** in C# to process employee data.  
 It groups employees by department, calculates the **average salary**, and identifies the **highest-paid employee** in each department.  
 This example reflects my ability to design **clean, efficient, and maintainable solutions**—skills honed over **14+ years of advanced .NET development**.
@@ -8,6 +9,7 @@ This example reflects my ability to design **clean, efficient, and maintainable 
 ---
 
 ## 🚀 Features
+
 - Groups employees by **Department**.
 - Calculates **average salary per department**.
 - Identifies the **highest-paid employee** in each department.
@@ -17,6 +19,7 @@ This example reflects my ability to design **clean, efficient, and maintainable 
 ---
 
 ## 🧑‍💻 Code Example
+
 ```csharp
 public class Employee {
     public int Id { get; set; }

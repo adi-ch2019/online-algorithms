@@ -2,7 +2,7 @@
 
 ## 📌 Overview
 
-This project demonstrates how to check if a given string is a **palindrome** using C#. 
+This project demonstrates how to check if a given string is a **palindrome** using C#.
 It ignores non-alphanumeric characters and is case-insensitive, making it robust for real-world inputs like `"A man, a plan, a canal: Panama"`.  
 This example reflects clean algorithm design and practical string handling—skills honed over **14+ years of advanced .NET development**.
 

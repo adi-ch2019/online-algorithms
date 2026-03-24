@@ -1,12 +1,14 @@
 # 🔢 Prime Numbers with Sieve of Eratosthenes in .NET
 
 ## 📌 Overview
+
 This project demonstrates how to generate prime numbers up to a given limit using the **Sieve of Eratosthenes** algorithm in C#.  
 It highlights efficient algorithm design, memory management, and clean coding practices—reflecting the expertise I’ve built over **14+ years of advanced .NET development**.
 
 ---
 
 ## 🚀 Features
+
 - Implements the **Sieve of Eratosthenes** for prime number generation.
 - Two-pass approach:
   1. Count primes.
@@ -17,6 +19,7 @@ It highlights efficient algorithm design, memory management, and clean coding pr
 ---
 
 ## 🧑‍💻 Code Example
+
 ```csharp
 int n = 10;
 bool[] isPrime = new bool[n];

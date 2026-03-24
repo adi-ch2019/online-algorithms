@@ -1,7 +1,9 @@
 # 🧹 Remove Duplicates from Integer Array in .NET
 
 ## 📌 Overview
+
 This project demonstrates how to **remove duplicates from an integer array** in C# by:
+
 1. Sorting the array.
 2. Iterating through elements to overwrite duplicates.
 3. Returning the count of unique elements (`k`).
@@ -11,6 +13,7 @@ It’s a practical example of clean, efficient coding practices developed over *
 ---
 
 ## 🚀 Features
+
 - Handles both **sorted** and **unsorted arrays** (unsorted arrays are sorted first).
 - Returns the number of unique elements (`k`) and modifies the array in place.
 - Demonstrates **modern .NET 10.0 project setup** with nullable references and implicit usings enabled.
@@ -19,6 +22,7 @@ It’s a practical example of clean, efficient coding practices developed over *
 ---
 
 ## 🧑‍💻 Code Example
+
 ```csharp
 public class Solution {
     public int RemoveDuplicates(int[] nums) {

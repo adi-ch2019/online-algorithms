@@ -1,12 +1,14 @@
 # 🔄 Anagram Checker in .NET
 
 ## 📌 Overview
+
 This project demonstrates how to check if two strings are **anagrams** of each other using C#.  
 It leverages array manipulation and sorting to compare character sequences—showcasing clean, efficient coding practices developed over **14+ years of advanced .NET development**.
 
 ---
 
 ## 🚀 Features
+
 - Compares two strings to determine if they are anagrams.
 - Uses `Array.Sort` for character ordering.
 - Returns a boolean result (`true` if anagrams, `false` otherwise).
@@ -15,6 +17,7 @@ It leverages array manipulation and sorting to compare character sequences—sho
 ---
 
 ## 🧑‍💻 Code Example
+
 ```csharp
 public class Program {
     public static void Main(string[] args) {

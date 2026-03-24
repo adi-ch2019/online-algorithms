@@ -1,12 +1,14 @@
 # 🔡 Letters with Respective Counts in .NET
 
 ## 📌 Overview
+
 This project demonstrates how to **count the frequency of characters in a string** using C# collections (`Dictionary<char,int>`).  
 It’s a simple but powerful example of how to leverage built-in data structures for clarity and efficiency—reflecting the coding discipline I’ve honed over **14+ years of advanced .NET development**.
 
 ---
 
 ## 🚀 Features
+
 - Counts occurrences of each character in a given string.
 - Uses **Dictionary** for fast lookups and updates.
 - Outputs results in a compact format (e.g., `banana` → `b1a3n2`).
@@ -15,6 +17,7 @@ It’s a simple but powerful example of how to leverage built-in data structures
 ---
 
 ## 🧑‍💻 Code Example
+
 ```csharp
 using System;
 using System.Collections.Generic;
