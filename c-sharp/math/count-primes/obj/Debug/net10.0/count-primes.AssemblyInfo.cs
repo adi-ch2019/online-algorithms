@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("count-primes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c8c30017aee8d53d34a187ac389dd7dede60ef8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bdb2e3918e23d37c54a22cd6c1fffade453a880b")]
 [assembly: System.Reflection.AssemblyProductAttribute("count-primes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("count-primes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
