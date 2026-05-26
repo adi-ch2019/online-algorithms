@@ -1,4 +1,4 @@
--- Delete duplicate books using CTE with ROW_NUMBER()
+-- Image 11: Delete duplicate books using CTE with ROW_NUMBER()
 BEGIN TRANSACTION;
 
 -- First, let's see the current books
