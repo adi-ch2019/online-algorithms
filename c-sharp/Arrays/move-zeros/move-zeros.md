@@ -4,7 +4,6 @@
 
 This project demonstrates a clean and efficient solution to detect duplicates in an integer array using **HashSet** in C#.  
 
-
 ---
 
 ## 🚀 Features
@@ -18,19 +17,32 @@ This project demonstrates a clean and efficient solution to detect duplicates in
 ## 🧑‍💻 Code Example
 
 ```csharp
-public class Program {
-    public static void Main(string[] args) {
-        int[] nums = {1, 2, 3, 1};
-        Program p = new Program();
-        bool result = p.ContainsDuplicate(nums);
-        Console.WriteLine(result); // Output: True
+void MoveZeroes(int[] nums) {
+        int lastNonZeroFoundAt = 0;
+
+        // Move non-zero elements forward
+        for (int i = 0; i < nums.Length; i++) {
+            if (nums[i] != 0) {
+                nums[lastNonZeroFoundAt] = nums[i];
+                lastNonZeroFoundAt++;
+            }
+        }
+
+        // Fill remaining positions with zeros
+        for (int i = lastNonZeroFoundAt; i < nums.Length; i++) {
+            nums[i] = 0;
+        }
     }
 
-    public bool ContainsDuplicate(int[] nums) {
-        HashSet<int> hsNums = new HashSet<int>();
-        foreach (int i in nums) {
-            if (!hsNums.Add(i)) return true;
+        int[] nums = {0, 1, 0, 3, 12};
+         Console.WriteLine("Array before moving zeroes:");
+        foreach (int num in nums) {
+            Console.Write(num + " ");
         }
-        return false;
-    }
-}
+        MoveZeroes(nums);
+        Console.WriteLine(" \n Array after moving zeroes:");
+        foreach (int num in nums) {
+            Console.Write(num + " ");
+        }
+  
+```
