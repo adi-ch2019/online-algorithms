@@ -3,7 +3,6 @@
 ## 📌 Overview
 
 This project demonstrates a simple yet efficient solution to detect duplicates in an integer array using **HashSet** in C#.  
-It’s part of my professional portfolio, showcasing clean, optimized, and production-ready coding practices developed over 14+ years of experience in **.NET development, troubleshooting, and optimization**.
 
 ---
 
