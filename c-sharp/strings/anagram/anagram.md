@@ -3,7 +3,6 @@
 ## 📌 Overview
 
 This project demonstrates how to check if two strings are **anagrams** of each other using C#.  
-It leverages array manipulation and sorting to compare character sequences—showcasing clean, efficient coding practices developed over **14+ years of advanced .NET development**.
 
 ---
 
