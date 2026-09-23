@@ -8,7 +8,6 @@ This project demonstrates how to **remove duplicates from an integer array** in 
 2. Iterating through elements to overwrite duplicates.
 3. Returning the count of unique elements (`k`).
 
-It’s a practical example of clean, efficient coding practices developed over **14+ years of advanced .NET development**.
 
 ---
 
